@@ -1,0 +1,108 @@
+body {
+    background-color: #e5ddd5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.container-fluid {
+    flex: 1;
+    display: flex;
+}
+
+.row {
+    flex: 1;
+}
+
+.col-md-4 {
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.col-md-8 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h2 {
+    color: #007a33;
+}
+
+#messages {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1; 
+    overflow-y: auto; 
+    max-height: calc(100vh - 150px);
+}
+
+
+#messages::-webkit-scrollbar {
+    width: 8px; 
+}
+
+#messages::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+}
+
+#messages::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+#messages li {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+#messages li:nth-child(odd) {
+    background-color: #dcf8c6;
+    align-self: flex-start; 
+}
+
+#messages li:nth-child(even) {
+    background-color: #ffffff;
+    align-self: flex-end; 
+}
+
+.input-group {
+    margin-top: auto; 
+}
+
+.input-group input {
+    border-radius: 20px;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    width: 75%; 
+}
+
+.input-group button {
+    border-radius: 20px;
+    background-color: #007a33;
+    color: white;
+    margin-left: 10px; 
+    padding: 10px 15px; 
+}
+
+.input-group button:hover {
+    background-color: #005f26;
+}
+
+#usuarios {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#usuarios li {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
