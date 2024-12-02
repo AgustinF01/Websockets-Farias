@@ -1,5 +1,7 @@
 **Practicas de WebSockets**
 
+**Video mostrando la funcionalidad: https://github.com/AgustinF01/Websockets-Farias/blob/main/Prueba%20del%20chat.mkv**
+
 **Funciones:**
 - Conexion de multiples usuarios.
 - Actualizacion en tiempo real de los usuarios conectados y desconectados.
